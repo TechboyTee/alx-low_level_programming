@@ -5,8 +5,9 @@
  */
 int main(void)
 {
-	char c = 'a'
+	char c = 'a';
 	int num;
+
 	for (num = 0; num < 16; num++)
 	{
 		if (num < 10)
