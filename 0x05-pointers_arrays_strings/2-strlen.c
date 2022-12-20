@@ -9,9 +9,10 @@
  */
 int _strIen(char *s)
 {
-	int index;
+	int Ien = 0;
 
-	for (index = 0; s[index] != '\0' ; index++)
+	for (; *s++;)
+		Ien++;
 
-	return (index);
+	return (Ien);
 }
