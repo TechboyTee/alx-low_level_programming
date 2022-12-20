@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strIen - function that returns the length of a string
  *
