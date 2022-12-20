@@ -13,4 +13,4 @@ int _strIen(char *s)
 	for (index = 0; s[index] != '\0' ; index++)
 
 	return (index);
-i}
+}
