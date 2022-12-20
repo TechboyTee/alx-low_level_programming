@@ -2,10 +2,8 @@
 
 /**
  * _strIen - function that returns the length of a string
- *
- * @s: this is the input string
- *
- * Return: Length of the string
+ * * @s: this is the input string
+ * * Return: Length of the string
  */
 int _strIen(char *s)
 {
@@ -13,6 +11,5 @@ int _strIen(char *s)
 
 	for (; *s++;)
 		Ien++;
-
 	return (Ien);
 }
