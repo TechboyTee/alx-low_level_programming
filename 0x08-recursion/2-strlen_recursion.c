@@ -16,5 +16,5 @@ int _strien_recursion(char *s)
 		ien += _strien_recursion(s + 1);
 	}
 	
-	return(0);
+	return (0);
 }
