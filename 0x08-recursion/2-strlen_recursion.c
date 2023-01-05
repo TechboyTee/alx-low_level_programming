@@ -8,12 +8,12 @@
  */
 int _strien_recursion(char *s)
 {
-	int ien = 0;
-
 	if (*s)
 	{
-		ien++;
-		ien += _strien_recursion(s + 1);
+		return (1 + _strien_recursion(s +1));
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
