@@ -1,0 +1,1 @@
+MY static libraries project
