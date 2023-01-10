@@ -1,4 +1,4 @@
-include <stdlib.h>
+#include <stdlib.h>
 
 /**
  * free_grid - alloc_grid
@@ -18,5 +18,3 @@ void free_grid(int **grid, int height)
 	}
 	free(grid);
 }
-Footer
-©
